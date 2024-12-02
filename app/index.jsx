@@ -5,6 +5,7 @@ import CustomButton from "@/components/CustomButton";
 import { router } from "expo-router";
 import { StatusBar } from 'expo-status-bar'
 
+
 const index = () => {
   return (
     <SafeAreaView className="bg-primary h-full">

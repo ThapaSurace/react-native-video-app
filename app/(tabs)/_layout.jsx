@@ -5,7 +5,7 @@ import { icons } from '../../constants'
 
 const TabIcon = ({ icon, color, name, focused }) => {
     return (
-        <View className="flex items-center justify-center gap-2 w-1">
+        <View className="flex items-center justify-center gap-2 min-w-32">
             <Image
                 source={icon}
                 resizeMode="contain"
@@ -38,6 +38,7 @@ const TabsLayout = () => {
                         borderTopWidth: 1,
                         borderTopColor: "#232533",
                         height: 84,
+                        paddingTop: 10
                     }
                 }}
             >
